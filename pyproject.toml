@@ -8,14 +8,13 @@ version = "0.1.0"
 description = "Scaffold, score, coordinate, and package vulnerability advisories."
 readme = "README.md"
 requires-python = ">=3.11"
-license = { text = "MIT" }
+license = "MIT"
 authors = [{ name = "Ayham Sarkhi" }]
 keywords = ["security", "vulnerability", "advisory", "cvss", "disclosure"]
 classifiers = [
   "Development Status :: 4 - Beta",
   "Environment :: Console",
   "Intended Audience :: Information Technology",
-  "License :: OSI Approved :: MIT License",
   "Programming Language :: Python :: 3.11",
   "Programming Language :: Python :: 3.12",
   "Programming Language :: Python :: 3.13",
