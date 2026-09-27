@@ -51,4 +51,4 @@ def render_timeline(events: list[TimelineEvent]) -> str:
     for event in events:
         reminder = " *(escalation reminder)*" if event.reminder else ""
         lines.append(f"| {event.date.isoformat()} | +{event.offset_days}d | {event.label}{reminder} |")
-    return "\n".join(events and lines or lines[:2])
+    return "\n".join(lines)
